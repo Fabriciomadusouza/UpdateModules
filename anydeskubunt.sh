@@ -1,4 +1,5 @@
 #!/bin/bash
+# curl -sSL https://raw.githubusercontent.com/Fabriciomadusouza/UpdateModules/main/anydeskubunt
 
 # Verifica se o wget está instalado
 if ! [ -x "$(command -v wget)" ]; then
