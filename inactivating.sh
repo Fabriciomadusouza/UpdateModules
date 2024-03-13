@@ -1,5 +1,5 @@
 # inativar terminal 
-# sudo wget -O- https://raw.githubusercontent.com/Fabriciomadusouza/UpdateModules/main/inactivating.sh | bash
+# curl -sSL https://raw.githubusercontent.com/Fabriciomadusouza/UpdateModules/main/inactivating.sh | bash
 # acesso-privilégio
 sudo su
 # limpar cache e config Chrome 
