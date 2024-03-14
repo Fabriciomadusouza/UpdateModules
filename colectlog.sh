@@ -1,5 +1,6 @@
+#!/bin/bash
 # Coleta log
-
+# chmod +x https://raw.githubusercontent.com/Fabriciomadusouza/UpdateModules/main/colectlog.sh
 
 # Acesso privilégiado 
 sudo su 
