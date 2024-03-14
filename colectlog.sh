@@ -17,6 +17,6 @@ else
 # Definindo o diretório de destino onde o log será salvo na sua máquina
 # diretorio_destino="$HOME/Desktop"
 # Definindo o diretório onde está localizado o log no servidor
-#diretorio_origem="/opt/videosoft/vs-os-interface/log/"
+# Diretorio_origem="/opt/videosoft/vs-os-interface/log/"
 # Copiando o arquivo
-#cp "$caminho_origem" "$caminho_destino"
+# cp "$caminho_origem" "$caminho_destino"
