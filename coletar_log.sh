@@ -1,8 +1,8 @@
 #!/bin/bash
 #acesso master
 sudo su
-# Diretório onde estão os logs da aplicação
-diretorio_logs="/opt/videosoft/vs-os-interface/log"
+# Entrando no diretório onde estão os logs da aplicação
+diretorio_logs="cd /opt/videosoft/vs-os-interface/log"
 
 # Obtém a data atual no formato esperado para o nome do arquivo de log
 data_atual=$(date +"%Y-%m-%d")
