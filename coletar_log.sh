@@ -1,5 +1,5 @@
 #!/bin/bash
-#permissão master
+#acesso master
 sudo su
 # Diretório onde estão os logs da aplicação
 diretorio_logs="/opt/videosoft/vs-os-interface/log"
@@ -13,7 +13,7 @@ arquivo_log="vs-fast-food-2.0_${data_atual}.log"
 # Verifica se o arquivo de log atual existe
 if [ -e "$diretorio_logs/$arquivo_log" ]; then
     # Obtém o diretório da área de trabalho do usuário
-    diretorio_area_de_trabalho="$HOME/Desktop"
+    diretorio_area_de_trabalho="/root/Desktop"
 
     # Copia o arquivo de log atual para a área de trabalho
     cp "$diretorio_logs/$arquivo_log" "$diretorio_area_de_trabalho"
