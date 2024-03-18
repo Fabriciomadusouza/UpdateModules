@@ -6,4 +6,5 @@ sudo su
 # Obtém a data atual no formato esperado para o nome do arquivo de log
 #data_atual=$(date +"%Y-%m-%d")
 
-cp /opt/videosoft/vs-os-interface/log/vs-fast-food-2.0_2024-03-18.log ~/Área de Trabalho
+cp /opt/videosoft/vs-os-interface/log/vs-fast-food-2.0_2024-03-18.log /home/videosoft/ÁreadeTrabalho
+
