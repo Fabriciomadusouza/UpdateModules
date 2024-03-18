@@ -1,5 +1,6 @@
 #!/bin/bash
-
+#permissão master
+sudo su
 # Diretório onde estão os logs da aplicação
 diretorio_logs="/opt/videosoft/vs-os-interface/log"
 
